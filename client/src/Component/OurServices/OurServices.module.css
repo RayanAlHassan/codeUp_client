@@ -17,6 +17,7 @@ h2 {
   width: 100%;
   /* height: 100%; */
   margin-top: 2rem;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +71,7 @@ h2 {
     justify-content: center;
   }
   .bcgIcon{
-    width: 100%;
+    width: 75%;
     height: 100%;
     background-color: #447fe57a;
     border-radius: 10%;
@@ -106,4 +107,30 @@ h2 {
 
 .card:hover .hoverDetails {
   opacity: 1;
+}
+@media (max-width:560px) {
+  h1{
+    font-size: 4vh;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .right{
+    font-size: 2vh;
+  }
+  .desc{
+    font-size: 17px;
+  }
+  .card{
+    height: 35rem;
+    width: 25rem;
+    /* background-color: hsl(0deg 0% 92.54% / 30%); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid gray; */
+    padding: 0rem;
+  }
 }

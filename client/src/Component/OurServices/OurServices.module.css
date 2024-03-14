@@ -11,6 +11,7 @@
 h1 {
   font-size: 6vh;
   color: var(--main-blue);
+  margin-bottom: 2rem;
 }
 h2 {
   width: 100%;

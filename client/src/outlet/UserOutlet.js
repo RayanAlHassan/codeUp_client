@@ -9,7 +9,7 @@ function UserOutlet() {
 <>
 <NavBar/>
       <Outlet/>
-      {/* <Footer/> */}
+      <Footer/>
 </>  
       
   )

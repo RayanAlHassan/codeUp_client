@@ -5,6 +5,7 @@ import styles from "./Footer.module.css";
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const location = useLocation();
@@ -13,6 +14,18 @@ const Footer = () => {
 
     // Use JavaScript to scroll to the "About Us" section smoothly
     document.getElementById("aboutus").scrollIntoView({ behavior: "smooth" });
+  };
+  const handleScrollToOurServices = () => {
+    setMenuOpen(false); // Close the menu if it's open
+
+    // Use JavaScript to scroll to the "About Us" section smoothly
+    document.getElementById("ourservices").scrollIntoView({ behavior: "smooth" });
+  };
+  const handleScrollToHeroSection = () => {
+    setMenuOpen(false); // Close the menu if it's open
+
+    // Use JavaScript to scroll to the "About Us" section smoothly
+    document.getElementById("herosection").scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -28,34 +41,36 @@ const Footer = () => {
               {/* <div className={styles.logo}>
                 <img src={confluence} alt="" />
               </div> */}
-              <p className={styles.logo__name}>skinWis</p>
+              <p className={styles.logo__name}>CodeUp</p>
             </div>
           </Link>
-          <p className={styles.slogan}>
+          <div className={styles.copyright}>
+        © 2024 - Powered By CodeUp, All Rights Reserved
+      </div>
+          {/* <p className={styles.slogan}>
             SkinWiz is your go-to destination for comprehensive skincare product
             reviews. Our expert team meticulously analyzes a wide range of
             skincare products, providing you with honest and unbiased
             assessments.
-          </p>
+          </p> */}
         </div>
         <div className={styles.company}>
           <h3 className={styles.section__title}>Website Sections</h3>
           <ul className={styles.links}>
-            <Link style={{ textDecoration: "none" }} to="/">
+            <Link style={{ textDecoration: "none" }}  to={location.pathname === "/" ? "#" : "/"}
+              onClick={handleScrollToHeroSection}>
               <li>Home</li>
             </Link>
-            <Link style={{ textDecoration: "none" }} to="/Reviews">
-              <li>Reviews</li>
+            <Link style={{ textDecoration: "none" }}  to={location.pathname === "/" ? "#" : "/"}
+              onClick={handleScrollToOurServices}>
+              <li>Our Services</li>
             </Link>
-            <Link style={{ textDecoration: "none" }} to={"/workshop"}>
-              <li>Workshop </li>
+            <Link style={{ textDecoration: "none" }}    to={location.pathname === "/" ? "#" : "/"}
+             
+              onClick={handleScrollToAbout}>
+              <li>  About Us </li>
             </Link>
-            <Link style={{ textDecoration: "none" }} to="/forYou">
-              <li>ForYou</li>
-            </Link>
-            <Link style={{ textDecoration: "none" }} to="/freequentQuestion">
-              <li>FAQs</li>
-            </Link>
+          
           </ul>
         </div>
         <div className={styles.company}>
@@ -69,8 +84,6 @@ const Footer = () => {
               <li> About Us</li>
             </Link>
 
-            <Link style={{ textDecoration: "none" }} to="/herosection">
-              <li>Join Us</li>
               {/* <h3 className={styles.section__title}>Follow Us</h3> */}
               <div className={styles.social__icons}>
                 {/* <a
@@ -94,17 +107,16 @@ const Footer = () => {
                   />
                 </a> */}
                 <a
-                  href="https://wa.me/76303610"
+                  href="https://wa.me/76 184 152"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaWhatsapp
                     className={styles.icon}
-                    style={{ fill: "var(--bcg--top)" }}
+                    style={{ fill: "var(--grays-color)" }}
                   />
                 </a>
-              </div>
-            </Link>
+          </div>
             {/* <a href="https://wa.me/70572631" target="_blank" style={{ textDecoration: 'none' }}>
   <li style={{ display: 'flex', alignItems: 'center' }}>
     Contact Us
@@ -119,10 +131,9 @@ const Footer = () => {
             </Link> */}
           </ul>
         </div>
+    
       </div>
-      <div className={styles.copyright}>
-        © 2024 - Powered By CodeUp, All Rights Reserved
-      </div>
+   
     </footer>
   );
 };

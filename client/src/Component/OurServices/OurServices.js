@@ -4,7 +4,7 @@ import style from "./OurServices.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCode,faPaintBrush,faMobileAlt, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 function OurServices() {
   const settings = {
     dots: true,
@@ -61,7 +61,7 @@ function OurServices() {
             <div className={style.cardContain}>
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
-                  icon={faUser}
+                  icon={faCode}
                   style={{ width: "150px", height: "150px" }}
                 />
               </div>
@@ -76,7 +76,7 @@ function OurServices() {
             <div className={style.cardContain}>
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
-                  icon={faUser}
+                  icon={faShoppingCart}
                   style={{ width: "150px", height: "150px" }}
                 />
               </div>
@@ -92,7 +92,7 @@ function OurServices() {
             <div className={style.cardContain}>
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
-                  icon={faUser}
+                  icon={faMobileAlt}
                   style={{ width: "150px", height: "150px" }}
                 />
               </div>
@@ -107,7 +107,7 @@ function OurServices() {
             <div className={style.cardContain}>
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
-                  icon={faUser}
+                  icon={faPaintBrush}
                   style={{ width: "150px", height: "150px" }}
                 />
               </div>

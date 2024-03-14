@@ -13,14 +13,15 @@ function HeroSection() {
           <p className={style.action}>
             Empowering Your Digital Journey Transforming Ideas into Exceptional
             Websites.{" "}
-            <button className={style.btnaction}>
-              <NavLink
-                to="/"
-                style={{ textDecoration: "none", color: "var(--cream-color" }}
-              >
-                Call US Now!
-              </NavLink>
-            </button>
+            <a
+              className={style.btnaction}
+              href="https://wa.me/76184152"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Call US Now!
+            </a>
           </p>
         </div>
       </div>

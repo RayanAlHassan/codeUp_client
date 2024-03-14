@@ -94,7 +94,7 @@ const Footer = () => {
                   />
                 </a> */}
                 <a
-                  href="https://wa.me/76184152"
+                  href="https://wa.me/76303610"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

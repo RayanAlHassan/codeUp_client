@@ -11,7 +11,7 @@ function OurServices() {
     infinite: true,
     arrows: true,
     autoplaySpeed: 2500,
-    autoplay: false,
+    autoplay: true,
     pauseOnHover: true,
     slidesToShow: 4,
     slidesToScroll: 1,

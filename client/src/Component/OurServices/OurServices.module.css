@@ -109,16 +109,23 @@ h2 {
   opacity: 1;
 }
 @media (max-width:560px) {
+  .bcgIcon{ 
+    width: 63%;
+   height: 60%;                
+               
+}
   h1{
     font-size: 4vh;
   }
   h2{
+    height: 40%;
     font-size: 18px;
   }
   .right{
     font-size: 2vh;
   }
   .desc{
+    height: 34%;
     font-size: 17px;
   }
   .card{
@@ -132,5 +139,8 @@ h2 {
     overflow: hidden;
     /* border: 1px solid gray; */
     padding: 0rem;
+  }
+  .cardContain{
+    height: 60%;
   }
 }

@@ -62,7 +62,7 @@ function OurServices() {
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
                   icon={faCode}
-                  style={{ width: "150px", height: "150px" }}
+                  style={{ width: "70px", height: "70px" }}
                 />
               </div>
               <h2>Web Design & Development</h2>
@@ -77,7 +77,7 @@ function OurServices() {
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
                   icon={faShoppingCart}
-                  style={{ width: "150px", height: "150px" }}
+                  style={{ width: "70px", height: "70px" }}
                 />
               </div>
               <h2>E-commerce Solutions</h2>
@@ -93,7 +93,7 @@ function OurServices() {
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
                   icon={faMobileAlt}
-                  style={{ width: "150px", height: "150px" }}
+                  style={{ width: "70px", height: "70px" }}
                 />
               </div>
               <h2>Mobile App Development:</h2>
@@ -108,7 +108,7 @@ function OurServices() {
               <div className={style.bcgIcon}>
                 <FontAwesomeIcon
                   icon={faPaintBrush}
-                  style={{ width: "150px", height: "150px" }}
+                  style={{ width: "70px", height: "70px" }}
                 />
               </div>
               <h2>UI/UX Design:</h2>

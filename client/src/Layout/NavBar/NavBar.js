@@ -91,7 +91,7 @@ function NavBar() {
 
             */}
             {/* </div> */}
-            codeUp
+            CodeUp
           </Link>
         </div>
 

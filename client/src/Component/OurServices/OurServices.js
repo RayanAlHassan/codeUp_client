@@ -96,7 +96,7 @@ function OurServices() {
                   style={{ width: "70px", height: "70px" }}
                 />
               </div>
-              <h2>Mobile App Development:</h2>
+              <h2>Mobile App Development</h2>
             </div>
             <span className={style.desc}>
               Create engaging and intuitive mobile applications for iOS and
@@ -111,10 +111,10 @@ function OurServices() {
                   style={{ width: "70px", height: "70px" }}
                 />
               </div>
-              <h2>UI/UX Design:</h2>
+              <h2>UI/UX Design</h2>
             </div>
             <span className={style.desc}>
-              4. Enhance user satisfaction and engagement through intuitive
+              Enhance user satisfaction and engagement through intuitive
               interface design and seamless user experiences.
             </span>
           </div>

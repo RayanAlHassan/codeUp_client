@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto&family=Teko:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+ 
+:root {
+  --main-font-size: 18px;
+  --title-font-family: "Protest Riot", sans-serif;
+  --main-color: #eceaea;;
+
+
+  --white-color: #f7f7f7;
+  --cream-color:#e4e4e4;
+  --font-color:#000000d6;
+  --blur-color:#67645e8a;
+  --gray-color: #00000091;
+  --fonts-color:#eceaeafa;
+  --grays-color:#00000073;
+  --border-radius: 30px;
+  --margin-LR: 8rem;
+  --Font-color:rgb(142 65 133);
+  --bcg--top:rgb(163 92 153 / 51%);
+  --main-blue:#3982de;
+}

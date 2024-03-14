@@ -80,7 +80,7 @@ function NavBar() {
   return (
     <header
       className={`${styles.header} ${visible ? "" : styles.hidden}`}
-      style={{ backgroundColor: scrollY > 0 ? "var(--bcg--top)" : "" }}
+      style={{ backgroundColor: scrollY > 0 ? "var(--grays--color)" : "" }}
     >
       <nav className={styles.nav}>
         <div className={styles.logoContainer}>

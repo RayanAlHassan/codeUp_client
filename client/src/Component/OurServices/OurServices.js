@@ -3,13 +3,15 @@ import Slider from "react-slick";
 import style from "./OurServices.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart, faUser } from "@fortawesome/free-solid-svg-icons";
 function OurServices() {
   const settings = {
     dots: true,
     infinite: true,
     arrows: true,
     autoplaySpeed: 2500,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: true,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -55,41 +57,66 @@ function OurServices() {
       </p>
       <div className={style.cards}>
         <Slider {...settings}>
-          <div className={style.card}>
-            <h2>Web Design & Development:</h2>
-            <div className={style.hoverDetails}>
-              <span className={style.desc}>
-                Craft visually stunning and user-friendly websites tailored to
-                your brand and audience.
-              </span>
+        <div className={style.card}>
+            <div className={style.cardContain}>
+              <div className={style.bcgIcon}>
+                <FontAwesomeIcon
+                  icon={faUser}
+                  style={{ width: "150px", height: "150px" }}
+                />
+              </div>
+              <h2>Web Design & Development</h2>
             </div>
+
+            <span className={style.desc}>
+            Craft visually stunning and user-friendly websites tailored to your brand and audience.
+            </span>
           </div>
           <div className={style.card}>
-            <h2>E-commerce Solutions</h2>
-            <div className={style.hoverDetails}>
-              <span className={style.desc}>
-                Build robust online stores with seamless navigation, secure
-                transactions, and personalized user experiences.
-              </span>
+            <div className={style.cardContain}>
+              <div className={style.bcgIcon}>
+                <FontAwesomeIcon
+                  icon={faUser}
+                  style={{ width: "150px", height: "150px" }}
+                />
+              </div>
+              <h2>E-commerce Solutions</h2>
             </div>
+
+            <span className={style.desc}>
+              Build robust online stores with seamless navigation, secure
+              transactions, and personalized user experiences.
+            </span>
           </div>
           <div className={style.card}>
-            <h2>Mobile App Development:</h2>
-            <div className={style.hoverDetails}>
-              <span className={style.desc}>
-                Create engaging and intuitive mobile applications for iOS and
-                Android platforms, reaching customers on the go.
-              </span>
-            </div>{" "}
+            <div className={style.cardContain}>
+              <div className={style.bcgIcon}>
+                <FontAwesomeIcon
+                  icon={faUser}
+                  style={{ width: "150px", height: "150px" }}
+                />
+              </div>
+              <h2>Mobile App Development:</h2>
+            </div>
+            <span className={style.desc}>
+              Create engaging and intuitive mobile applications for iOS and
+              Android platforms, reaching customers on the go.
+            </span>
           </div>
           <div className={style.card}>
-            <h2>UI/UX Design:</h2>
-            <div className={style.hoverDetails}>
-              <span className={style.desc}>
-                4. Enhance user satisfaction and engagement through intuitive
-                interface design and seamless user experiences.
-              </span>
-            </div>{" "}
+            <div className={style.cardContain}>
+              <div className={style.bcgIcon}>
+                <FontAwesomeIcon
+                  icon={faUser}
+                  style={{ width: "150px", height: "150px" }}
+                />
+              </div>
+              <h2>UI/UX Design:</h2>
+            </div>
+            <span className={style.desc}>
+              4. Enhance user satisfaction and engagement through intuitive
+              interface design and seamless user experiences.
+            </span>
           </div>
         </Slider>
       </div>

@@ -27,7 +27,7 @@ h2 {
 .right {
   width: 96%;
   margin-top: 1rem;
-  font-size: 3vh;
+  font-size: 23px;
   color: var(--grays-color);
   margin-bottom: 2rem;
 }
@@ -43,7 +43,7 @@ h2 {
   position: relative;
   text-decoration: none;
   color: rgba(43, 43, 43, 0.63);
-  height: 570px;
+  height: 490px;
   margin-right: 10px;
   padding: 20px;
   overflow: hidden;
@@ -107,6 +107,12 @@ h2 {
 
 .card:hover .hoverDetails {
   opacity: 1;
+}
+@media (max-width: 920px) {
+
+  h1 {
+    font-size: 4vh;
+  }
 }
 @media (max-width:560px) {
   .bcgIcon{ 

@@ -35,9 +35,10 @@
 
 .header {
   color: var(--main-blue);
-  font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: 6vh;
 }
 
 .div {
@@ -55,7 +56,7 @@
   background-size: cover;
   object-fit: 100%;
   background-position: center center;
-  border-radius: 376% 20% 19% 111%;
+  border-radius: 329% 432% 180% 291%;
 }
 
 .span {
@@ -134,7 +135,8 @@
     font-size: 20px;
   }
   .header {
-    font-size: 20px;
+    font-size: 4vh;
+    margin-top: 4rem;
   }
 }
 @media (max-width: 700px) {
@@ -152,8 +154,11 @@
   .action {
     font-size: 14px;
   }
-  .header {
+  .imgg {
+    border-radius: 0;
+
   }
+
 }
 @media (max-width: 600px) {
   .right {

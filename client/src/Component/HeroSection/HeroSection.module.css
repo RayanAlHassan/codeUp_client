@@ -1,5 +1,4 @@
 .container {
-  margin-bottom: 4rem;
   display: flex;
   height: 100vh;
   box-shadow: 0 0 20px 10px rgba(238, 238, 238, 0.5); /* Adjust the blur radius and color as needed */

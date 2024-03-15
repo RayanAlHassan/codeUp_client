@@ -1,14 +1,14 @@
 import React from 'react'
 import HeroSection from '../Component/HeroSection/HeroSection'
 import OurServices from '../Component/OurServices/OurServices'
-import AbouUs from '../Component/AboutUs/AbouUs'
+import AboutUs from '../Component/AboutUs/AboutUs'
 
 function Home() {
   return (
     <div>
       <HeroSection/>
       <OurServices/>
-      <AbouUs/>
+      <AboutUs/>
     </div>
   )
 }
